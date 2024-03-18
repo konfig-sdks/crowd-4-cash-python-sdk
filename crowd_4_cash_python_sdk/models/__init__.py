@@ -1,0 +1,71 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from crowd_4_cash_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from crowd_4_cash_python_sdk.model.account_details import AccountDetails
+from crowd_4_cash_python_sdk.model.account_statement import AccountStatement
+from crowd_4_cash_python_sdk.model.account_statement_entry import AccountStatementEntry
+from crowd_4_cash_python_sdk.model.account_summary import AccountSummary
+from crowd_4_cash_python_sdk.model.active_bid import ActiveBid
+from crowd_4_cash_python_sdk.model.amortization_schedule import AmortizationSchedule
+from crowd_4_cash_python_sdk.model.application_result import ApplicationResult
+from crowd_4_cash_python_sdk.model.auto_invest_settings import AutoInvestSettings
+from crowd_4_cash_python_sdk.model.automatic_builder import AutomaticBuilder
+from crowd_4_cash_python_sdk.model.automatic_builder_option import AutomaticBuilderOption
+from crowd_4_cash_python_sdk.model.bid import Bid
+from crowd_4_cash_python_sdk.model.bidding_result import BiddingResult
+from crowd_4_cash_python_sdk.model.bidding_submit_bids_request import BiddingSubmitBidsRequest
+from crowd_4_cash_python_sdk.model.company import Company
+from crowd_4_cash_python_sdk.model.connected_investor import ConnectedInvestor
+from crowd_4_cash_python_sdk.model.connector_bid import ConnectorBid
+from crowd_4_cash_python_sdk.model.connector_investment import ConnectorInvestment
+from crowd_4_cash_python_sdk.model.connector_report import ConnectorReport
+from crowd_4_cash_python_sdk.model.connector_summary import ConnectorSummary
+from crowd_4_cash_python_sdk.model.contract import Contract
+from crowd_4_cash_python_sdk.model.crif import Crif
+from crowd_4_cash_python_sdk.model.early_repayment import EarlyRepayment
+from crowd_4_cash_python_sdk.model.error import Error
+from crowd_4_cash_python_sdk.model.expenses import Expenses
+from crowd_4_cash_python_sdk.model.financial import Financial
+from crowd_4_cash_python_sdk.model.income import Income
+from crowd_4_cash_python_sdk.model.intermediary_loan import IntermediaryLoan
+from crowd_4_cash_python_sdk.model.intermediary_loan_application import IntermediaryLoanApplication
+from crowd_4_cash_python_sdk.model.intermediary_loan_handover_date import IntermediaryLoanHandoverDate
+from crowd_4_cash_python_sdk.model.intermediary_partner import IntermediaryPartner
+from crowd_4_cash_python_sdk.model.intermediary_report import IntermediaryReport
+from crowd_4_cash_python_sdk.model.intermediary_summary import IntermediarySummary
+from crowd_4_cash_python_sdk.model.investment import Investment
+from crowd_4_cash_python_sdk.model.investor_account import InvestorAccount
+from crowd_4_cash_python_sdk.model.loan import Loan
+from crowd_4_cash_python_sdk.model.loan_rating import LoanRating
+from crowd_4_cash_python_sdk.model.login import Login
+from crowd_4_cash_python_sdk.model.manual_builder import ManualBuilder
+from crowd_4_cash_python_sdk.model.manual_builder_option import ManualBuilderOption
+from crowd_4_cash_python_sdk.model.manual_option_rule import ManualOptionRule
+from crowd_4_cash_python_sdk.model.multiple_bidding_result import MultipleBiddingResult
+from crowd_4_cash_python_sdk.model.opportunity import Opportunity
+from crowd_4_cash_python_sdk.model.paged_list import PagedList
+from crowd_4_cash_python_sdk.model.portfolio import Portfolio
+from crowd_4_cash_python_sdk.model.private import Private
+from crowd_4_cash_python_sdk.model.questionnaire import Questionnaire
+from crowd_4_cash_python_sdk.model.rental_application_result import RentalApplicationResult
+from crowd_4_cash_python_sdk.model.rental_loan import RentalLoan
+from crowd_4_cash_python_sdk.model.rental_loan_application import RentalLoanApplication
+from crowd_4_cash_python_sdk.model.rental_report import RentalReport
+from crowd_4_cash_python_sdk.model.rental_summary import RentalSummary
+from crowd_4_cash_python_sdk.model.rentee import Rentee
+from crowd_4_cash_python_sdk.model.schedule_payment import SchedulePayment
+from crowd_4_cash_python_sdk.model.status import Status
+from crowd_4_cash_python_sdk.model.technical_data import TechnicalData
+from crowd_4_cash_python_sdk.model.token import Token
+from crowd_4_cash_python_sdk.model.transacions import Transacions
+from crowd_4_cash_python_sdk.model.yn import YN
